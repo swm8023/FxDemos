@@ -5,9 +5,6 @@
       <settings category="Project\Direct3D\HLSL Compiler">
         <CompilerOptions value="" />
       </settings>
-      <settings category="Project\Direct3D10\HLSL Compiler">
-        <CompilerOptions value="" />
-      </settings>
       <settings category="Project\OpenGL\CgCompiler">
         <CompilerOptions value="" />
       </settings>
@@ -24,15 +21,15 @@
       <settings category="Project\COLLADA Common Profile">
         <EnvironmentMap value="" />
         <DisableCommonProfileTransparency value="False" />
+      </settings>
+      <settings category="Project\Direct3D10\HLSL Compiler">
+        <CompilerOptions value="" />
       </settings>
     </configuration>
     <configuration name="Release">
       <settings category="Project\Direct3D\HLSL Compiler">
         <CompilerOptions value="" />
       </settings>
-      <settings category="Project\Direct3D10\HLSL Compiler">
-        <CompilerOptions value="" />
-      </settings>
       <settings category="Project\OpenGL\CgCompiler">
         <CompilerOptions value="" />
       </settings>
@@ -49,6 +46,9 @@
       <settings category="Project\COLLADA Common Profile">
         <EnvironmentMap value="" />
         <DisableCommonProfileTransparency value="False" />
+      </settings>
+      <settings category="Project\Direct3D10\HLSL Compiler">
+        <CompilerOptions value="" />
       </settings>
     </configuration>
   </configurations>
@@ -76,10 +76,10 @@
         <viewtransform>5.960463E-08 0 -0.9999998 0 0 1 0 0 0.9999998 0 5.960463E-08 0 1.91815 0 0 1 </viewtransform>
       </camera>
       <camera type="Perspective" scene="Document1.dae#DefaultScene">
-        <focallength>8.687704</focallength>
+        <focallength>9.497149</focallength>
         <fov>40</fov>
         <zoomrect>0 0 1 1</zoomrect>
-        <viewtransform>0.1992126 0.03860544 -0.9791955 0 -0.5531641 0.829237 -0.07984529 0 0.8089029 0.5575621 0.1865498 0 5.801322 4.343487 2.999078 1 </viewtransform>
+        <viewtransform>0.6061096 0.03860636 -0.7944434 0 -0.5918122 0.689214 -0.4180222 0 0.5314032 0.7235286 0.4405869 0 4.056602 6.941067 6.11046 1 </viewtransform>
       </camera>
       <renderPort name="Render" />
     </FXComposer.Scene.Services.FXRenderPortService>
@@ -95,14 +95,5 @@
       </grid_settings>
       <background_color color="0.5 0.5 0.5 0" />
     </FXComposer.Scene.Services.FXSceneService>
-    <FXComposer.Debugger.DebuggerService>
-      <settings>
-        <fragkill mode="Off" color="1, 0, 1, 1" />
-        <enablealpha value="False" />
-        <singlepixelmode enabled="False" pixelID="142, 105" />
-      </settings>
-      <profiles />
-      <files />
-    </FXComposer.Debugger.DebuggerService>
   </customConfigurations>
 </project>
