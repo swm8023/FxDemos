@@ -11,6 +11,11 @@ date: YYMMDD
 
 float4x4 MatrixWVP :WorldViewProjection;
 
+float4 DiffuseTex_st <
+	string UIName = "DiffuseTex ST";
+> = {1.0f, 1.0f, 0.0f, 0.0f};
+
+
 Texture2D ColorTexture
 <
 	string UIName = "Color Texture";
@@ -41,7 +46,7 @@ struct vertexdata {
 vertexdata mainVS(appdata IN){
 	vertexdata OUT;
 	OUT.position = mul(IN.position, MatrixWVP);
-	OUT.coord = IN.coord * 2;
+	OUT.coord = IN.coord * DiffuseTex_st.xy + DiffuseTex_st.zw;
 	return OUT;
 }
 
