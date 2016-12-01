@@ -5,6 +5,9 @@
       <settings category="Project\Direct3D\HLSL Compiler">
         <CompilerOptions value="" />
       </settings>
+      <settings category="Project\Direct3D10\HLSL Compiler">
+        <CompilerOptions value="" />
+      </settings>
       <settings category="Project\OpenGL\CgCompiler">
         <CompilerOptions value="" />
       </settings>
@@ -21,15 +24,15 @@
       <settings category="Project\COLLADA Common Profile">
         <EnvironmentMap value="" />
         <DisableCommonProfileTransparency value="False" />
-      </settings>
-      <settings category="Project\Direct3D10\HLSL Compiler">
-        <CompilerOptions value="" />
       </settings>
     </configuration>
     <configuration name="Release">
       <settings category="Project\Direct3D\HLSL Compiler">
         <CompilerOptions value="" />
       </settings>
+      <settings category="Project\Direct3D10\HLSL Compiler">
+        <CompilerOptions value="" />
+      </settings>
       <settings category="Project\OpenGL\CgCompiler">
         <CompilerOptions value="" />
       </settings>
@@ -47,21 +50,20 @@
         <EnvironmentMap value="" />
         <DisableCommonProfileTransparency value="False" />
       </settings>
-      <settings category="Project\Direct3D10\HLSL Compiler">
-        <CompilerOptions value="" />
-      </settings>
     </configuration>
   </configurations>
   <assetFile uri="Document1.dae" referenced="False" />
+  <assetFile uri="cache-cube-ccd8d7b8-be13-40fc-9332-7e372eff4426.dae" referenced="True" />
+  <assetFile uri="cache-knot-c116c9f6-7add-4167-a7fd-fc3126936bbb.dae" referenced="True" />
   <activeAssetCollection uri="Document1.dae" />
   <customConfigurations>
     <FXComposer.Scene.Services.FXRenderPortService>
       <defaultScene sceneUri="Document1.dae#DefaultScene" />
       <camera type="Top" scene="Document1.dae#DefaultScene">
-        <focallength>3.400008</focallength>
+        <focallength>3.953217</focallength>
         <fov>40</fov>
         <zoomrect>0 0 1 1</zoomrect>
-        <viewtransform>1 0 0 0 0 3.576278E-07 -0.9999998 0 0 0.9999998 3.576278E-07 0 0 3.400007 5.947489E-07 1 </viewtransform>
+        <viewtransform>1 0 0 0 0 3.576279E-07 -0.9999998 0 0 0.9999999 3.576278E-07 0 0 3.953219 7.925926E-07 1 </viewtransform>
       </camera>
       <camera type="Front" scene="Document1.dae#DefaultScene">
         <focallength>1.91815</focallength>
@@ -76,10 +78,10 @@
         <viewtransform>5.960463E-08 0 -0.9999998 0 0 1 0 0 0.9999998 0 5.960463E-08 0 1.91815 0 0 1 </viewtransform>
       </camera>
       <camera type="Perspective" scene="Document1.dae#DefaultScene">
-        <focallength>9.497149</focallength>
+        <focallength>-3.482854</focallength>
         <fov>40</fov>
         <zoomrect>0 0 1 1</zoomrect>
-        <viewtransform>0.6061096 0.03860636 -0.7944434 0 -0.5918122 0.689214 -0.4180222 0 0.5314032 0.7235286 0.4405869 0 4.056602 6.941067 6.11046 1 </viewtransform>
+        <viewtransform>-0.6938154 2.430666E-06 0.7201527 0 0.5259922 0.6830321 0.5067534 0 -0.4918863 0.7303881 -0.4738995 0 -3.022559 4.747161 -2.09518 1 </viewtransform>
       </camera>
       <renderPort name="Render" />
     </FXComposer.Scene.Services.FXRenderPortService>
